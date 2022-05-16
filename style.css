@@ -1,0 +1,70 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(25, 195, 230);
+    /* background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"); */
+    background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+}
+
+.card {
+    width: 650px;
+    background-color: #fff;
+    padding: 20px;
+
+    display: flex;
+    column-gap: 30px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: rgb(14, 194, 83);
+    font-weight: bold;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color:rgb(98, 162, 174);
+}
+
+.desc p {
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.social-link {
+    display: inline-block;
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-link.github {
+    background-color: rgb(33, 111, 175);
+}
+
+.social-link.telegram {
+    background-color: rgb(240, 8, 8);
+}
